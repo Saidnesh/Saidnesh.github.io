@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthyMeds Services</title>
+    <link rel="stylesheet" href="styles.css">
+    
+<style>
+	.content {
+	margin-top: 100px;
+	padding: 16px;
+	}
+
+    #navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+	  z-index: 1000;
+    }
+	
+    #navbar ul {
+   list-style-type: none;
+   padding: 0;
+   overflow: hidden;
+   background-color: #2986CC;
+   border-radius: 10px;
+   border-style: solid;
+   margin-right: 20px;
+   margin-top: 1px;
+   }
+   
+   #navbar li {float: left;}
+   
+   #navbar li a {
+   display: block;
+   text-align: center;
+   padding: 42px 70px;
+   text-decoration: none;
+   font-family: fantasy;
+   color: black;
+   font-size: 20px;
+   }
+   
+   #navbar li a:hover {
+   background-color: #CC0000;
+   color: white;
+   }
+   
+    .dropdown {
+      float: left;
+      overflow: hidden;
+    }
+
+    /* Style for the dropdown button */
+    .dropdown .dropbtn {
+      font-size: 20px;
+      border: none;
+      outline: none;
+	  font-family: fantasy;
+      color: black;
+      padding: 40px 80px;
+      background-color: inherit;
+    }
+
+    /* Style for the dropdown content */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #2986CC;
+      min-width: 200px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    /* Style for the dropdown links */
+    .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      font-size: 20px;
+      text-align: center;
+	  font-family: fantasy;
+      color: black;
+    }
+
+    /* Change color on hover for dropdown links */
+    .dropdown-content a:hover {
+      background-color: #CC0000;
+      color: white;
+    }
+
+    .dropdown .dropbtn:hover {
+      color: white;
+      background-color: #CC0000;
+    }
+	
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+</style>
+</head>
+<body>
+  <div id="navbar">
+  <ul>
+   <li><img src="logo.jpg" alt="Pharmacylogo" width="130" height="130"
+   style="margin-left: 20px; margin-bottom: 2px; margin-top: 2px; 
+   margin-right: 40px;"></li>
+   <li><a href="../index.html">Home</a></li>
+   <li><a href="../AboutUs/AboutUs.html">About Us</a></li>
+   <li><a href="Services.html">Services</a></li>
+   <li><a href="../Products/Products.html">Products</a></li>
+   <li><a href="../ContactUs/ContactUs.html">Contact Us</a></li>
+    <div class="dropdown">
+      <button class="dropbtn">More
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="../Promotion/Promotion.html">Promotion</a>
+        <a href="../FindUs/FindUs.html">Find Us</a>
+      </div>
+    </div>
+  </ul>
+  </div>
+  
+	<div class="content">
+    <header>
+        <h1>Services</h1>
+    </header>
+
+    <div class="container">
+
+        <h1><span style="color: blue;">1. Medication and Prescription Services</span></h1>
+        <p>At <span style="color: green;
+		font-weight: bold;">Leo Pharmacy</span>, 
+		we offer comprehensive medication and prescription services to ensure our patients receive the care they need. Our services include:</p>
+        
+		<ul>
+            <li>Efficient and accurate processing of prescriptions, ensuring timely availability and adherence to refill schedules.</li>
+            <li>Providing tools, reminders, and counseling to encourage patients to follow their prescribed medication regimen consistently.</li>
+            <li>Offering vaccinations, health screenings, and point-of-care testing for conditions like diabetes or cholesterol to support overall health.</li>
+            <li>Providing information on medication usage, side effects, proper administration, and lifestyle modifications to complement treatment.</li>
+            <li>Monitoring for adverse drug reactions and providing guidance on managing potential side effects.</li>
+        </ul>
+
+        <h1><span style="color: blue;">2. Health and Wellness Counseling
+		</span></h1>
+		
+        <p>In addition to our health and wellness counseling, 
+		<span style="color: yellowgreen; 
+		font-weight: bold;">Leo Pharmacy
+		</span> can provide guidance on maintaining a healthy lifestyle, managing chronic conditions, and achieving your wellness goals.Enhancing health and wellness counseling at pharmacies involves personalized guidance tailored to individual needs, fostering a deeper understanding of medications and lifestyle choices. Improvements include extended counseling hours, diversified wellness programs covering nutrition, exercise, and mental health, along with specialized training for pharmacists in counseling techniques. Implementing follow-up sessions, utilizing technology for remote consultations, and collaborating with healthcare providers can augment support. Strengthening communication skills, offering resources for holistic well-being, and empowering patients to make informed decisions contribute to a comprehensive approach, promoting healthier lifestyles and better health outcomes within the community served by the pharmacy.</p>
+
+        <h1><span style="color: blue;">3. Medical Equipment Rental</span></h1>
+        <p>For added convenience and efficiency, 
+		<span style="color: green; 
+		font-weight: bold;">Leo Pharmacy</span> 
+		offer a selection of medical equipment for rent, including wheelchairs, crutches, and more to support your recovery and mobility needs.</p>
+        <p>Improving pharmacy medical equipment rental involves broadening inventory with updated devices, streamlining access via online platforms, educating customers on usage, customizing recommendations, aiding insurance processes, gathering feedback, ensuring hygiene, and offering responsive support. Diversifying available equipment to cater to various needs, providing clear instructions, simplifying insurance claims, and maintaining cleanliness are key. These enhancements aim to elevate service quality, enhance convenience, and ensure customer confidence in using rented equipment, fostering a more supportive and accommodating pharmacy environment.
+		<span style="color: green; font-weight: bold;">Leo Pharmacy</span> is your trusted partner in maintaining a healthy lifestyle.</p>
+
+    <div class="testimonial-slide">
+        <blockquote>
+            "I've been a customer at Leo Pharmacy for years. The team's dedication to providing personalized care is unmatched. Their advice has been invaluable in managing my health."
+            <cite> <span style="color: white;">- Taylor Swift</span></cite>
+        </blockquote>
+    </div>
+
+    <div class="testimonial-slide">
+        <blockquote>
+            "The appointment services at Leo Pharmacy have truly transformed my approach to healthcare. The expertise and guidance provided by their healthcare professionals have empowered me to take charge of my well-being."
+            <cite><span style="color: white;">- Emily Smith</span></cite>
+        </blockquote>
+    </div>
+
+    <div class="testimonial-slide">
+        <blockquote>
+            "The online ordering and delivery services provided by Leo Pharmacy have made managing my prescriptions effortless. Their user-friendly platform and prompt deliveries have been a game-changer for me in accessing my medications conveniently."
+            <cite><span style="color: white;">- Sarah Johnson</span></cite>
+        </blockquote>
+    </div>
+	</div>
+	</div>
+        <script src="Services.js"></script>
+</body>
+</html>
