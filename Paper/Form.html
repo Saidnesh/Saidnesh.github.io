@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Information</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: lightgray;
+            color: #333;
+            margin: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+
+        #form-container {
+            text-align: center;
+            margin-top: 20px;
+            background-color: whitesmoke;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .save-button, .clear-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: auto;
+            border: none;
+            cursor: pointer;
+            border-radius: 30px;
+            font-size: 20px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .clear-button {
+            background-color: #f44336;
+            margin-left: 10px;
+        }
+
+        .save-button:hover, .clear-button:hover {
+            background-color: #45a049;
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: auto;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body style="background-color: lightgray;">
+<body>
+     <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="Form.html">Form</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+    <form id="customerForm" action="Submit.html" method="post">
+    <table border="1">
+        <thead>
+            <h1>PERSONAL INFORMATION</h1>
+            <form id="courseForm" action="submit.php" method="post">
+            <tr>
+                <th>Phone No</th>
+                <th>:</th>
+                <th><label for="phone"></label>
+            <input type="tel" id="phone" name="phone"><br><br>
+            </tr>
+             <tr>
+                <th>Address</th>
+                <th>:</th>
+                <th><label for="Address"></label>
+            <input type="text" id="Address" name="Address"><br><br>
+            </tr>
+            <tr>
+                <th>Postcode</th>
+                <th>:</th>
+                <th><label for="Postcode"></label>
+            <input type="tel" id="Postcode" name="Postcode"><br><br>
+            </tr>
+            <tr>
+                <th>State</th>
+                <th>:</th>
+               <td>
+                    <select id="state" name="state">
+                        <option value="1">Choose your option</option>
+                        <option value="2">Johor</option>
+                        <option value="3">Kedah</option>
+                        <option value="4">Kelantan</option>
+                        <option value="5">Perak</option>
+                        <option value="6">Selangor</option>
+                        <option value="G">Malacca</option>
+                        <option value="H">Negeri Sembilan</option>
+                        <option value="I">Pahang</option>
+                        <option value="AL">Perlis</option>
+                        <option value="AK">Penang</option>
+                        <option value="AL">Sabah</option>
+                        <option value="AK">Sarawak</option>
+                        <option value="AL">Terengganu</option>
+                        
+                        
+                    </select>
+                </td>
+                 <tr>
+                <th>Contact Number</th>
+                <th>:</th>
+                <th><label for="Number"></label>
+            <input type="tel" id="Number" name="Number"><br><br>
+            
+            </tr>
+               <tr>
+                <th>Relation: </th>
+                    <th>:</th>
+                        <th>
+        <label></label><br>
+                    <input type="radio" id="Father" name="interests" value="Father">
+                    <label for="relation">Father</label><br>
+
+                    <input type="radio" id="Mother" name="interests" value="Mother">
+                    <label for="relation">Mother</label><br>
+
+                    <input type="radio" id="Brother" name="interests" value="Brother">
+                    <label for="relation">Brother</label><br>
+
+                    <input type="radio" id="Sister" name="interests" value="Sister">
+                    <label for="relation">Sister</label><br>
+
+                    <input type="radio" id="Grand Father" name="interests" value="Grand Father">
+                    <label for="relation">Grand Father</label><br>
+
+                    <input type="radio" id="Grand Mother" name="interests" value="Grand Mother">
+                    <label for="relation">Grand Mother</label><br>
+
+                    <input type="radio" id="Other" name="interests" value="Other">
+                    <label for="relation">Other</label><br>
+
+                    </th>
+                    </tr>
+                     <tr>
+                <th>Contact Person Phone No</th>
+                <th>:</th>
+                <th><label for="Number"></label>
+            <input type="tel" id="Number" name="Number"><br><br>
+            </tr>
+         </thead>
+   </table>
+  </form> 
+    <div id="form-container">
+        <input type="save" value="Save" class="save-button">
+        <input type="clear" value="clear" class="clear-button">
+        </div>
+    
+</body>
+<footer>
+    <p>&copy; 2023 Copyright by [Student Name][Reg. No.]</p>
+</footer>
+</html>
